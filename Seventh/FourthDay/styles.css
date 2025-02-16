@@ -1,0 +1,69 @@
+/* إعداد الخطوط والتنسيق العام */
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #966e6e;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background: linear-gradient(to right, #4CAF50, #2E8B57);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 5px solid #1C6E43;
+}
+
+/* تنسيق القسم */
+section {
+  background: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+  color: #00fc0d;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+
+dl {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+dt {
+  font-weight: bold;
+  color: #470099;
+}
+
+dd {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  border-left: 3px solid #369739;
+}
+
+
+footer {
+  background: #2E8B57;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-top: 20px;
+}
+
+img, video, audio, svg {
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+img {
+  width: 300px;
+  padding: 5px;
+
+}
+
+video {
+  width: 400px;
+  border: 2px solid #aaa;
+}
+
+audio {
+  width: 300px;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  background: white;
+  border: 2px solid black;
+}

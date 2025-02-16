@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>وسائط متعددة في HTML</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <h1>الوسائط المتعددة في HTML</h1>
+
+
+  <h2>صورة عمك كريستيانو باستخدام وسم &lt;img&gt;</h2>
+  <img src="images/Cristiano.jpeg" alt="صورة توضيحية">
+  <!-- <img src="images/Cristiano.png" alt="صورة توضيحية">
+    <img src="images/Cristiano.jpg" alt="صورة توضيحية"> -->
+
+  <h2>مقطع فيديو لاحتفالية عم الكل باستخدام وسم &lt;video&gt;</h2>
+  <video controls autoplay loop muted poster="images/Cristiano.jpeg">
+    <source src="videos/Cristiano.mp4" type="video/mp4">
+    <!-- <source src="videos/sample.ogg" type="video/ogg"> -->
+    Your Browser Does Not Support Video
+  </video>
+
+  <h2>ملف صوتي باستخدام وسم &lt;audio&gt;</h2>
+  <audio controls autoplay loop muted>
+    <source src="audio/Cristiano.mp3" type="audio/mp3">
+    <!-- <source src="audio/sample.ogg" type="audio/ogg">
+        <source src="audio/sample.wav" type="audio/wav"> -->
+    Your Browser Does Not Support Music
+  </audio>
+
+
+  <h2>رسم مربع باستخدام وسم &lt;svg&gt;</h2>
+  <svg width="100" height="100">
+    <rect width="100" height="100" style="fill: blue; stroke: black; stroke-width: 3;" />
+  </svg>
+
+</body>
+
+</html>

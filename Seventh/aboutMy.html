@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا</title>
+    <style>
+      
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid #ccc;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+
+        .profile h2 {
+            margin: 10px 0 5px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .profile p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        
+        .main {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+        }
+
+        .up, .down {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5em;
+        }
+
+        
+        .card {
+            width: 90px;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            transition: .2s ease-in-out;
+            cursor: pointer;
+            border-radius: 20%;
+            text-decoration: none;
+        }
+
+      
+        svg {
+            width: 40px;
+            height: 40px;
+        }
+
+        .whatsapp { fill: #25D366; }
+        .telegram { fill: #0088cc; }
+        .instagram { fill: #cc39a4; }
+        .facebook { fill: #1877F2; }
+
+        /* تأثيرات التحويل عند المرور */
+        .card:hover { background-color: #f0f0f0; }
+        .card1:hover { background-color: #25D366; }
+        .card2:hover { background-color: #0088cc; }
+        .card3:hover { background-color: #cc39a4; }
+        .card4:hover { background-color: #1877F2; }
+        .card:hover svg { fill: white; }
+
+    </style>
+</head>
+<body>
+
+
+<div class="profile">
+    <img src="imegs/img.jpeg" alt="صورة شخصية"> 
+    <h2>ضيف الله الشارحي </h2>
+    <p>مطـور ويب جيد منحاز إلى التقنيات المواكبة للعـصر <br> وتحسين تجربة المستخدم من خلال التصاميم التفاعلية</p>
+</div>
+
+<div class="main">
+    <div class="up">
+        <!-- واتساب -->
+        <a href="https://wa.me/+967772354996" target="_blank" class="card card1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="whatsapp">
+                <path d="M16 3C9.373 3 3.999 8.373 3.999 15c0 2.351.612 4.557 1.726 6.52L4 28l6.553-1.714A12.924 12.924 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm-.003 2c5.522 0 10 4.477 10 10 0 5.523-4.478 10-10 10a9.984 9.984 0 01-4.848-1.23l-.348-.188-3.89 1.018.85-3.575-.217-.355A9.97 9.97 0 016 15c0-5.523 4.478-10 9.997-10z"/>
+            </svg>
+        </a>
+
+        <!-- تيليجرام -->
+        <a href="https://t.me/al_sharhy" target="_blank" class="card card2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="telegram">
+                <path d="M21.6 2.4a1.2 1.2 0 0 0-1.2-.2L2.4 9.6a1.2 1.2 0 0 0 .3 2.3l4.4 1.3L10 19.8a1.2 1.2 0 0 0 2 .3l3.4-3.4l4.2 3.3c.4.3.8.3 1.2.2a1.2 1.2 0 0 0 .8-1l2.4-14.4a1.2 1.2 0 0 0-1.4-1.4Z"/>
+            </svg>
+        </a>
+    </div>
+    
+    <div class="down">
+        <!-- انستجرام -->
+        <a href="https://www.instagram.com/al_sharhy" target="_blank" class="card card3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256" class="instagram">
+                <g transform="scale(8,8)">
+                    <path d="M11.46875,5c-3.55078,0-6.46875,2.91406-6.46875,6.46875v9.0625c0,3.55078,2.91406,6.46875,6.46875,6.46875h9.0625c3.55078,0,6.46875-2.91406,6.46875-6.46875v-9.0625c0-3.55078-2.91406-6.46875-6.46875-6.46875z"/>
+                </g>
+            </svg>
+        </a>
+
+        <!-- فيسبوك -->
+        <a href="https://www.facebook.com/Dhayfalsharhi" target="_blank" class="card card4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="facebook">
+                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.877V15.47H7.898v-3.47h2.54V9.745c0-2.507 1.492-3.89 3.777-3.89 1.096 0 2.24.195 2.24.195v2.47H15.82c-1.49 0-1.953.926-1.953 1.875v2.175h3.328l-.532 3.47h-2.796v6.408C18.343 21.128 22 16.991 22 12z"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

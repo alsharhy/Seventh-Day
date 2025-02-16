@@ -1,0 +1,51 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin: 25px;
+            background-image: url('images/img.jpg'); /* Replace this with the image URL */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1, h2 {
+            color: #18c3af;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        ul, ol, dl {
+            background: rgba(35, 96, 188, 0.567); /* Semi-transparent background */
+            padding: 20px;
+            padding-left: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(58, 49, 49, 0);
+            color: aliceblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        ul li, ol li {
+            margin: 8px 0;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #010407;
+            margin-top: 10px;
+        }
+
+        dd {
+            margin: 5px 0 15px;
+            padding-left: 10px;
+            border-left: 3px solid #007bff;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: white;
+            margin-top: 20px;
+           font-size: 15px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
