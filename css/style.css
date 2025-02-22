@@ -1,6 +1,5 @@
 body {
-font-family: 'Almarai', sans-serif;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Almarai', sans-serif;
   direction: rtl;
   text-align: center;
   background-color: #f4f4f4;
@@ -77,6 +76,7 @@ nav a:hover {
   border-radius: 5px;
   font-size: 20px;
   transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
@@ -123,10 +123,7 @@ nav a:hover {
       text-align: right;
     }
     
-    
-    body {
-      font-family: 'Almarai', sans-serif;
-    }
+
     
    .sidebar.active {
       transform: translateX(0);
