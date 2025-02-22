@@ -9,7 +9,7 @@ body {
 
 h1,
 h2 {
-  color: #333;
+  color: #333; 
   font-size: 50px;
 }
 
@@ -95,6 +95,7 @@ nav a:hover {
     }
     .sidebar li {
       margin-bottom: 20px;
+      
     }
     .sidebar a {
       color: white;
@@ -121,6 +122,10 @@ nav a:hover {
       transform: translateX(100%);
       transition: transform 0.3s ease;
       text-align: right;
+
+      background: url('https://media2.giphy.com/media/5R31B2VfdmL3LFSAOF/giphy.gif?cid=6c09b9521ucg3b3hlq10yocgbjzgk4liamp6461ut1t7cd32&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g') no-repeat center center fixed; /* إضافة صورة خلفية متحركة */
+    background-size: cover; /* ضبط صورة الخلفية لتغطية كامل المساحة */
+      
     }
     
 
