@@ -1,4 +1,5 @@
 body {
+font-family: 'Almarai', sans-serif;
   font-family: 'Cairo', sans-serif;
   direction: rtl;
   text-align: center;
@@ -83,6 +84,59 @@ nav a:hover {
   transform: scale(1.1);
 }
 
+
+
+
+
+  .sidebar ul {
+      list-style-type: disc;  /* استخدام النقاط العادية */
+      padding-right: 0;
+      padding-left: 20px; /* محاذاة النقاط في اليسار */
+    }
+    .sidebar li {
+      margin-bottom: 20px;
+    }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .sidebar a:hover {
+      color: #d1d5db;
+    }
+    .sidebar i {
+      margin-left: 10px;
+    }
+    
+    
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: #1e3a8a;
+      color: white;
+      padding: 20px;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      text-align: right;
+    }
+    
+    
+    body {
+      font-family: 'Almarai', sans-serif;
+    }
+    
+   .sidebar.active {
+      transform: translateX(0);
+    }
+    
+    
+  
+  
+  
+    
 footer {
   text-align: center;
   padding: 10px;
